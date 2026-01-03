@@ -30,8 +30,24 @@ Savings: R80k|███████████████
 -**Total Costs**: R171K (Fuel: R135k + Maintenance: R36K)
 -**Savingd**: R80K (from optimisation) 
 -**Net cost**:R91K
+ 
 ## Optimisation Strategies
-1
+1. **Route optimisation**: Cut fuel costs (R135k) by 10-15% using GPS routing.
+2. **Fuel management**: Reduce waste via eco-driving + tracking → save ~R7-13k extra.
+3. **Preventive maintenance**: Lower breakdowns → cut R36k/vehicle cost by 10%.
+4. **Vehicle utilisation**: Boost 85% uptime → reduce idle time.
+5. **Contract renegotiation**: Re-bid services → cut maintenance costs 5-10%.
+6. **Telematics**: Track drivers → spot inefficiencies → save ~R5-10k.
+7. **Lifecycle management**: Replace old vehicles if ROI justifies it.
+
+### Potential Extra Savings
+- ~R30-50k (on top of R80k saved).
+
+### Next Steps
+- Pick a pilot strategy (e.g., route optimisation).
+- Set KPIs (e.g., fuel-cost drop, uptime boost).
+- Review after 4 weeks.
+
 
 
                         
