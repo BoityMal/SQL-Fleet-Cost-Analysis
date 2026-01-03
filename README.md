@@ -72,6 +72,51 @@ Savings: R80k|███████████████
 ### Potential Savings
 - ~R7-13k extra (fuel efficiency + behaviour adjustment for efficiency ).
 
+## KPI Calculations
+### SQL Queries for Key Metrics
+
+-- 1. Cost per km
+SELECT 
+    SUM(operating_cost) / SUM(total_kilometres) AS cost_per_km
+FROM telematics_data;
+
+-- 2. Utilization rate
+SELECT 
+    (SUM(actual_kilometres) / SUM(max_possible_kilometres)) * 100 AS utilization_rate
+FROM telematics_data;
+
+-- 3. Fuel consumption drop (if tracking fuel data)
+SELECT 
+    (SUM(fuel_used) / SUM(total_kilometres)) AS avg_fuel_per_km
+FROM telematics_data
+WHERE tracking_period = 'after_telematics';
+
+-- 4. Driver behavior score (example aggregation)
+SELECT 
+    driver_id,
+    AVG(speeding_events + harsh_braking_events) AS behavior_score
+FROM telematics_data
+GROUP BY driver_id;
+
+## Conclusion
+The **Telematics Pilot** has been successfully implemented with the goal of reducing fuel costs by 5‑10% through driver tracking and real‑time alerts. 
+
+### Achievements
+- Achieved the targeted fuel‑cost reduction.
+- Improved driver performance via behaviour optimisation (driver alerts & monitoring).
+- Established measurable KPIs (fuel‑cost drop, uptime boost).
+
+### Key Learnings
+- Driver behaviour adjustments had the biggest impact on fuel efficiency.
+- Real‑time telemetry data enabled quick corrective actions.
+- The 4‑week review cycle proved effective for measuring progress.
+
+### Next Steps
+1. Scale the telematics solution to the full fleet.
+2. Refine KPIs to include additional efficiency metrics.
+3. Conduct a post‑implementation review after 3 months to assess long‑term savings.
+
+
 
 
 
