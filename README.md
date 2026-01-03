@@ -70,7 +70,9 @@ Savings: R80k|███████████████
 - **Visualizations**: Charts showing cost‑per‑km & utilization rates trends (planned).
 
 ### Potential Savings
-- ~R7-13k extra (fuel efficiency + behaviour tweaks).
+- ~R7-13k extra (fuel efficiency + behaviour adjustment for efficiency ).
+
+
 
 
 
