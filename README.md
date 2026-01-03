@@ -51,16 +51,27 @@ Savings: R80k|███████████████
 ## Telematics Pilot
 - **Goal**: Reduce fuel costs 5-10% via driver tracking + alerts.
 - **KPIs**:
-  - Fuel consumption drop
-  - Idle time reduction
-  - Driver behaviour improvement
+  - **Productivity calculations**: 
+    - *Cost per km* = `Total operating cost ÷ Total kilometres`.
+    - *Utilization rate* = `Actual km driven ÷ Maximum possible km` (expressed as %).
+  - Fuel consumption drop.
+  - Idle time reduction.
+  - Driver behaviour score.
+- **Example**:
+  - Total operating cost = R100,000.
+  - Total kilometres = 50,000 km.
+  - **Cost per km** = R100,000 ÷ 50,000 = **R2.00 per km**.
+  - If utilization is 40,000 km of 50,000 km max, **utilization rate** = 80%.
 - **Plan**:
   1. Install telematics devices.
   2. Track metrics for 4 weeks.
   3. Review + adjust → roll out further.
+- **Key findings / insights**: Will be added after pilot review in this README.
+- **Visualizations**: Charts showing cost‑per‑km & utilization rates trends (planned).
 
 ### Potential Savings
 - ~R7-13k extra (fuel efficiency + behaviour tweaks).
+
 
 
 
