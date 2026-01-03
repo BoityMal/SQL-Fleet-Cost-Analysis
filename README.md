@@ -48,6 +48,21 @@ Savings: R80k|███████████████
 - Set KPIs (e.g., fuel-cost drop, uptime boost).
 - Review after 4 weeks.
 
+## Telematics Pilot
+- **Goal**: Reduce fuel costs 5-10% via driver tracking + alerts.
+- **KPIs**:
+  - Fuel consumption drop
+  - Idle time reduction
+  - Driver behaviour improvement
+- **Plan**:
+  1. Install telematics devices.
+  2. Track metrics for 4 weeks.
+  3. Review + adjust → roll out further.
+
+### Potential Savings
+- ~R7-13k extra (fuel efficiency + behaviour tweaks).
+
+
 
 
                         
